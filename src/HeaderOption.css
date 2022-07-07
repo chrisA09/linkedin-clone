@@ -1,0 +1,15 @@
+.HeaderOption{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-right: 20px;
+    color: gray;
+    cursor:pointer /*no hace falta usar :hover*/ 
+}
+.HeaderOption:hover{
+    color:black;
+}
+.HeaderOption--title{
+    font-size: 12px;
+    font-weight: 400;
+}
