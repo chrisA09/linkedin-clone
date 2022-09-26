@@ -32,7 +32,7 @@ function Header() {
           <HeaderOption Icon={WorkOutlinedIcon} title='Empleos' />
           <HeaderOption Icon={TextsmsRoundedIcon} title='Mensajes' />  
           <HeaderOption Icon={NotificationsRoundedIcon} title='Notificaciones'  />
-          <HeaderOption Avatar={Avatar} title ='Yo' />
+          <HeaderOption Avatar={Avatar} title ='Yo' />{/*avatar pasa src. No el componente*/}
         </div>
     
     </div>

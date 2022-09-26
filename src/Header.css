@@ -12,6 +12,7 @@
 }
 .header--left{
     display: flex;
+    justify-items: center;
 }
 .header--left > img{
     object-fit: contain; /*mantiene aspect-ratio*/
@@ -28,8 +29,8 @@
     color: gray;
     background-color: #eef3f8;
 }
+/*input pelado sin text area*/
 .header--search > input{
-    /*input pelado sin text area*/
     outline: none; 
     border: none;
     background: none;

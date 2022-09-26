@@ -1,4 +1,4 @@
-.HeaderOption{
+.headerOption{
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -6,10 +6,16 @@
     color: gray;
     cursor:pointer /*no hace falta usar :hover*/ 
 }
-.HeaderOption:hover{
+.headerOption:hover{
     color:black;
 }
-.HeaderOption--title{
+.headerOption--title{
     font-size: 12px;
     font-weight: 400;
+}
+.headerOption--icon{
+    /*si no cambia estilos de mui hace falta poner !important*/
+    object-fit: contain;
+    height: 25px !important;
+    width: 25px !important;
 }
